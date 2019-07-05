@@ -1,0 +1,42 @@
+.favourites{
+    height: 400px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 40px;
+}
+.favourites-title{
+    padding: 20px;
+    text-transform: uppercase;
+    color: $color-logo;
+}
+.favourites p{
+    padding: 20px;
+}
+.favourites-left{
+    text-align: left;
+}
+.favourites-right{
+    text-align: right;
+}
+.favourites-img {
+    background-image: url('../images/hobby.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.fas.fa-umbrella-beach,
+.fas.fa-bicycle,
+.fas.fa-dumbbell
+{
+    margin-right: 10px;
+    color: yellow;
+}
+.fas.fa-bicycle{
+    color: green;
+}
+.fas.fa-dumbbell{
+color: red;
+}

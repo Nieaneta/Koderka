@@ -1,0 +1,34 @@
+{
+    "name": "koderka",
+    "version": "1.0.0",
+    "description": "Portfolio",
+    "main": "gulpfile.js",
+    "dependencies": {
+        "browserslist": "^4.6.3",
+        "gulp-autoprefixer": "^6.1.0",
+        "gulp-browsersync-inject": "^1.0.1",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "^2.6.5"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "gulp": "^4.0.2"
+    },
+    "browserslist": [
+        "last 1 version",
+        "> 1%"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Nieaneta/Koderka.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Nieaneta/Koderka/issues"
+    },
+    "homepage": "https://github.com/Nieaneta/Koderka#readme"
+}

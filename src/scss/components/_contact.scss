@@ -1,0 +1,87 @@
+.contact {
+    height: 600px;
+    font-size: 1.7rem;
+    margin-top: 90px;
+}
+
+
+.form {
+    margin: 2rem 0;
+    width: 50%;
+}
+.form .form-row {
+    margin-bottom: 1rem;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    border-radius: 0.2rem;
+    padding: 0.8rem;
+    border: 1px solid #aaa;
+    display: block;
+    width: 100%;
+}
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus {
+    border-color: $color-logo;
+    box-shadow: inset 0 0 0 1px $color-logo, inset 0 1px 5px rgba(0, 0, 0, 0.07);
+    outline: none;
+}
+.form textarea {
+    height: 10rem;
+}
+.form label {
+    font-weight: bold;
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+.form .submit-btn {
+    padding: 1rem 2rem;
+    background-color: $color-logo;
+    border: 0;
+    border-radius: 0.2rem;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.3s background-color;
+}
+@media screen and (max-width: 500px) {
+    .form .submit-btn {
+        display: block;
+        width: 100%;
+    }
+}
+
+// .form input[type="text"].error,
+// .form input[type="email"].error,
+// .form textarea.error,
+// .form .checkbox input.error ~ .state {
+//     border-color: $color-logo;
+
+.field-error {
+    color: $color-logo;
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+}
+
+.form .submit-btn:hover {
+    background: rgba(0,0,0,.5);
+}
+.form .checkbox {
+    // position: relative;
+    font-weight: normal;
+    font-size: 0.9rem;
+    line-height: 1rem;
+    color: #555;
+    cursor: pointer;
+}
+
+
+.icons a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: $color-logo;
+}

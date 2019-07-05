@@ -1,0 +1,39 @@
+.about-title{
+    margin-top: 90px;
+    text-align: center;
+}
+
+.about{
+    background-color: rgba(0,0,0,.1);
+    height: 550px;
+    font-size: 1.3rem;
+}
+
+.about-txt{
+    padding: 20px;
+    width: 100%;
+    // text-align: center;
+}
+.center{
+    text-align: center;
+}
+.about-list{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    list-style: none;
+    padding: 10px 0 0 20px;
+}
+.about-list-el{
+    padding: 10px 0;
+    width: 80%;
+    text-align: center;
+}
+.about-img {
+    background-image: url('../images/section2-img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+}

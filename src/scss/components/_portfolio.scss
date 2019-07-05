@@ -1,0 +1,29 @@
+.portfolio {
+    margin-top: 80px;
+    height: 600px;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 30px;
+}
+
+.portfolio-title {
+    text-transform: uppercase;
+    color: $color-logo;
+}
+.portfolio-img {
+    background-image: url("../images/section3-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.portfolio-kettle,
+.portfolio-sit {
+    height: 450px;
+    padding: 40px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
