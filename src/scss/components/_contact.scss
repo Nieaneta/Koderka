@@ -4,10 +4,21 @@
     margin-top: 90px;
 }
 
-
 .form {
-    margin: 2rem 0;
-    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-left {
+    width: 500px;
+}
+.form-right {
+    width: 600px;
+}
+.form-right-img {
+    height: 400px;
+    justify-content: center;
+    
 }
 .form .form-row {
     margin-bottom: 1rem;
@@ -55,20 +66,8 @@
     }
 }
 
-// .form input[type="text"].error,
-// .form input[type="email"].error,
-// .form textarea.error,
-// .form .checkbox input.error ~ .state {
-//     border-color: $color-logo;
-
-.field-error {
-    color: $color-logo;
-    padding: 0.5rem 0;
-    font-size: 0.8rem;
-}
-
 .form .submit-btn:hover {
-    background: rgba(0,0,0,.5);
+    background: #777;
 }
 .form .checkbox {
     // position: relative;
@@ -78,10 +77,16 @@
     color: #555;
     cursor: pointer;
 }
-
-
-.icons a{
-    font-size: 1.2rem;
+.row {
+    justify-content: flex-end;
+}
+.icons a {
+    font-size: 2rem;
     text-decoration: none;
     color: $color-logo;
+    padding: 0 20px;
+}
+
+.icons a:hover {
+    color: #555;
 }

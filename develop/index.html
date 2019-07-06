@@ -82,21 +82,19 @@
                             <h3 class="about-title">Od czego się zaczęło...</h3>
                             <p class="about-txt">
                                 Moja przygoda z programowaniem zaczęła się kilka
-                                lat temu, kiedy miałam poczucie zmarnowanego
-                                czasu i szukałam pracy, w której mogłabym cały
-                                czas się uczyć i rozwijać. Pierwszym językiem
-                                programowania, z którym miałam styczność był
-                                C++. Niestety z powodu braku czasu porzuciłam
-                                naukę. Jednak za jakiś czas postanowiłam, że
-                                chcę się realizować w obszarze IT. Zrezygnowałam
-                                z pracy i wzięłam się za naukę. Przez kilka
-                                miesięcy uczyłam się samodzielnie, a następnie
-                                rozpoczęłam kurs w Szkole IT Coders Lab. Kurs
+                                lat temu. Pierwszym językiem programowania, z
+                                którym miałam styczność był C++. Niestety z
+                                powodu braku czasu porzuciłam naukę. Jednak za
+                                jakiś czas postanowiłam, że chcę się realizować
+                                w obszarze IT. Zrezygnowałam z pracy i wzięłam
+                                się za naukę. Przez kilka miesięcy uczyłam się
+                                samodzielnie, a następnie rozpoczęłam kurs w
+                                Szkole IT <span>Coders Lab</span>. Kurs
                                 ukończyłam w czerwcu 2019 roku. Obecnie
-                                porządkuję sobie wiedzę zdobytą na kursie,
-                                uczestniczę w meet up'ach, konferencjach, gdzie
-                                poznaje fantastycznych ludzi i szukam swojej
-                                pierwszej pracy w IT!
+                                porządkuję wiedzę zdobytą na kursie, uczestniczę
+                                w meet up'ach, konferencjach, gdzie poznaje
+                                fantastycznych ludzi i szukam swojej pierwszej
+                                pracy w IT!
                             </p>
                         </div>
                         <div class="col">
@@ -135,21 +133,25 @@
             <div class="container">
                 <section class="portfolio">
                     <h3 class="portfolio-title">Moje projekty</h3>
+                    <div class="image">
+                        <a
+                            href="http://www.koderka.pl/kettle/develop/index.html"
+                        >
+                            <img
+                                class="portfolio-kettle"
+                                src="./images/kettle.jpg"
+                                alt="kettle"
+                            />
+                        </a>
 
-                    <a href="http://www.koderka.pl/kettle/develop/index.html">
-                        <img
-                            class="portfolio-kettle"
-                            src="./images/kettle.jpg"
-                            alt="kettle"
-                        />
-                    </a>
-
-                    <a href="http://www.koderka.pl/sit/index.html"></a>
-                    <img
-                        class="portfolio-sit"
-                        src="./images/sit.jpg"
-                        alt="sit on chair"
-                    />
+                        <a href="http://www.koderka.pl/sit/index.html">
+                            <img
+                                class="portfolio-sit"
+                                src="./images/sit.jpg"
+                                alt="sit on chair"
+                            />
+                        </a>
+                    </div>
                 </section>
             </div>
         </div>
@@ -162,19 +164,26 @@
             <div class="container">
                 <section class="favourites">
                     <h3 class="favourites-title">Moje zainteresowania</h3>
-                    <p class="favourites-left">
-                        <i class="fas fa-umbrella-beach"></i>Uwielbiam spacery
-                        po plaży i zachody słońca.
-                    </p>
-
-                    <p class="favourites-center">
-                        <i class="fas fa-bicycle"></i>Lubię jeździć na rowerze.
-                    </p>
-
-                    <p class="favourites-right">
-                        <i class="fas fa-dumbbell"></i>Interesuję się sportem,
-                        uprawiam cross fit.
-                    </p>
+                    <div class="row">
+                        <div class="col">
+                            <img src="./images/sunset.jpg" alt="sunset" />
+                            <p class="favourites-txt">
+                                Uwielbiam spacery po plaży i zachody słońca. Odkąd pamiętam zawsze kochałam morze </br>i szum fal. 
+                            </p>
+                        </div>
+                        <div class="col">
+                            <img src="./images/bicycle.jpg" alt="bicycle" />
+                            <p class="favourites-txt">
+                                W weekendy z rodziną i znajomymi wybieramy się na przejażdżki rowerowe. Preferuję aktywny wypoczynek. Chociaż czasami lubię pograć </br> na konsoli lub obejrzeć kolejny sezon </br>ulubionego serialu. 
+                            </p>
+                        </div>
+                        <div class="col">
+                            <img src="./images/crossfit.jpg" alt="crossfit" />
+                            <p class="favourites-txt">
+                                Interesuję się sportem. Uprawiam cross fit, fitness. Lubię sportową rywalizację,  a coraz lepsze osiągnięcia mobilizują mnie do kolejnego wysiłku.
+                            </p>
+                        </div>
+                    </div>
                 </section>
             </div>
         </div>
@@ -188,8 +197,9 @@
                 <section class="contact">
                     <div class="col">
                         <h4>Napisz do mnie!</h4>
-
+                        
                         <form class="form">
+                            <div class="form-left">
                             <div class="form-row">
                                 <label for="name">Imię</label>
                                 <input
@@ -237,12 +247,16 @@
                                     Wyślij
                                 </button>
                             </div>
+                        </div>
+                        <div class="form-right">
+                            <img class="form-right-img" src="./images/koderka.jpg" alt="photo">
+                        </div>
                         </form>
                     </div>
 
                     <div class="container">
                         <div class="icons">
-                            <div class="col">
+                            <div class="row">
                                 <a
                                     href="https://www.facebook.com/Koderkapl-152404729000150/?modal=admin_todo_tour"
                                     class="fab fa-facebook"

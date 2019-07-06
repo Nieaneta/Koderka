@@ -1,42 +1,25 @@
-.favourites{
-    height: 400px;
+.favourites {
+    height: 500px;
     font-size: 1.5rem;
     text-align: center;
     padding: 40px;
 }
-.favourites-title{
+.favourites-title {
     padding: 20px;
+    margin-bottom: 30px;
     text-transform: uppercase;
     color: $color-logo;
 }
-.favourites p{
+.favourites-txt {
     padding: 20px;
+    font-size: 1rem;
 }
-.favourites-left{
-    text-align: left;
-}
-.favourites-right{
-    text-align: right;
-}
+
 .favourites-img {
-    background-image: url('../images/hobby.jpg');
+    background-image: url("../images/hobby.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-}
-
-.fas.fa-umbrella-beach,
-.fas.fa-bicycle,
-.fas.fa-dumbbell
-{
-    margin-right: 10px;
-    color: yellow;
-}
-.fas.fa-bicycle{
-    color: green;
-}
-.fas.fa-dumbbell{
-color: red;
 }

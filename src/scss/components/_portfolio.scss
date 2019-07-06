@@ -1,14 +1,14 @@
 .portfolio {
     margin-top: 80px;
-    height: 600px;
+    height: 800px;
     font-size: 1.5rem;
     text-align: center;
     padding: 30px;
 }
-
 .portfolio-title {
     text-transform: uppercase;
     color: $color-logo;
+    margin: 40px 0;
 }
 .portfolio-img {
     background-image: url("../images/section3-img.jpg");
@@ -22,8 +22,13 @@
 .portfolio-kettle,
 .portfolio-sit {
     height: 450px;
-    padding: 40px;
-    margin: 20px;
     border: 1px solid #ccc;
     cursor: pointer;
+    margin: 40px 0;
+}
+
+.image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
