@@ -3,7 +3,7 @@
     font-size: 1.7rem;
     margin-top: 90px;
 }
-.contact h3{
+.contact h3 {
     display: none;
 }
 .form {
@@ -20,7 +20,6 @@
 .form-right-img {
     height: 400px;
     justify-content: center;
-    
 }
 .form .form-row {
     margin-bottom: 1rem;
@@ -93,20 +92,18 @@
     color: #555;
 }
 
-
 @media (max-width: 640px) {
     .contact {
-        height: 200px;
+        height: 300px;
         font-size: 1.7rem;
-        margin-top: 50px;
+        margin-top: 80px;
     }
-    .form{
+    .form {
         display: none;
     }
     .form-right-img {
         height: 200px;
         display: block;
-        
     }
     .icons a {
         font-size: 2rem;
@@ -114,10 +111,10 @@
         color: $color-logo;
         padding: 10px 10px;
     }
-    .contact h4{
+    .contact h4 {
         display: none;
     }
-    .contact h3{
+    .contact h3 {
         display: block;
     }
 }

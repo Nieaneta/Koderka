@@ -1,43 +1,46 @@
-.about-title{
+.about-title {
     margin-top: 90px;
     text-align: center;
     text-transform: uppercase;
 }
 
-.about{
-    background-color: rgba(0,0,0,.1);
+.about {
+    background-color: #eee;
     height: 650px;
     font-size: 1.3rem;
 }
 
-.about-txt{
-    padding: 20px;
-    width: 100%;
-    // text-align: center;
-}
-.about-txt span{
-    font-weight: bold;
-}
-.center{
+.about-txt {
+    padding: 20px 0;
+    width: 90%;
+    margin: 0 auto;
     text-align: center;
 }
-.about-list{
+.about-txt span {
+    font-weight: bold;
+}
+.center {
+    margin: 0 auto;
+}
+.about-list {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     list-style: none;
     padding: 10px 0 0 20px;
+    margin: 0 auto;
+    text-align: center;
 }
-.about-list-el{
+.about-list-el {
     padding: 10px 0;
     width: 80%;
     text-align: center;
 }
-.about-list-el:hover{
+.about-list-el:hover {
     color: $color-logo;
 }
 .about-img {
-    background-image: url('../images/section2-img.jpg');
+    background-image: url("../images/section2-img.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -46,33 +49,31 @@
 }
 
 @media (max-width: 640px) {
-    .container{
-        max-width: 800px;
-    }
-    .row{
+    .row {
         display: block;
     }
-    .about-title{
+    .about-title {
         margin-top: 0;
         padding-top: 30px;
         text-align: center;
         text-transform: uppercase;
         font-size: 1rem;
     }
-    .about{
-        background-color: rgba(0,0,0,.1);
+    .about {
+        background-color: rgba(0, 0, 0, 0.1);
         height: 650px;
         font-size: 0.8rem;
     }
-    .about-txt{
+    .about-txt {
         padding: 15px;
-        width: 90%;
+        max-width: 90%;
+        margin: 0 auto;
         text-align: center;
     }
     .about-img {
         display: none;
     }
-    .about-list{
+    .about-list {
         display: flex;
         flex-direction: row;
         flex-grow: 1 0;
@@ -80,8 +81,9 @@
         padding: 0;
         width: 80%;
         margin: 0 auto;
+        text-align: center;
     }
-    .about-list-el:hover{
-       color: none;
+    .about-list-el:hover {
+        color: none;
     }
 }
