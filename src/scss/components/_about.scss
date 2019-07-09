@@ -44,3 +44,44 @@
     background-attachment: fixed;
     height: 500px;
 }
+
+@media (max-width: 640px) {
+    .container{
+        max-width: 800px;
+    }
+    .row{
+        display: block;
+    }
+    .about-title{
+        margin-top: 0;
+        padding-top: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+    .about{
+        background-color: rgba(0,0,0,.1);
+        height: 650px;
+        font-size: 0.8rem;
+    }
+    .about-txt{
+        padding: 15px;
+        width: 90%;
+        text-align: center;
+    }
+    .about-img {
+        display: none;
+    }
+    .about-list{
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1 0;
+        list-style: none;
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .about-list-el:hover{
+       color: none;
+    }
+}

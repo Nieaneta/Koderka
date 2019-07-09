@@ -3,7 +3,9 @@
     font-size: 1.7rem;
     margin-top: 90px;
 }
-
+.contact h3{
+    display: none;
+}
 .form {
     display: flex;
     justify-content: space-between;
@@ -89,4 +91,33 @@
 
 .icons a:hover {
     color: #555;
+}
+
+
+@media (max-width: 640px) {
+    .contact {
+        height: 200px;
+        font-size: 1.7rem;
+        margin-top: 50px;
+    }
+    .form{
+        display: none;
+    }
+    .form-right-img {
+        height: 200px;
+        display: block;
+        
+    }
+    .icons a {
+        font-size: 2rem;
+        text-decoration: none;
+        color: $color-logo;
+        padding: 10px 10px;
+    }
+    .contact h4{
+        display: none;
+    }
+    .contact h3{
+        display: block;
+    }
 }

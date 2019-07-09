@@ -23,3 +23,16 @@
     background-attachment: fixed;
     height: 100vh;
 }
+
+@media (max-width: 640px) {
+    .favourites {
+        height: 1200px;
+        padding: 30px;
+    }
+    .favourites-title {
+        font-size: 1.3rem;
+    }
+    .favourites-img {
+    display: none;
+}
+}

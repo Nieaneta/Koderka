@@ -121,21 +121,110 @@
 }
 
 @media (max-width: 640px) {
-    .page-header .container {
-        display: block;
-        height: 100px;
+    .container{
+        max-width: 700px;
     }
-
     .page-logo {
         margin: 0;
-        display: flex;
 
         .page-logo-link {
-            font-size: 2rem;
-            color: #fff;
-            font-weight: bold;
-            text-decoration: none;
-            padding: 10px;
+            font-size: 1.5rem;
         }
+    }
+    .page-nav {
+        display: none;
+    }
+
+    // .hamburger {
+    //     display: block;
+    //     width: 100%;
+    //     position: relative;
+    //     top: 0;
+    //     left: 180px;
+    //     z-index: 1;
+    // }
+
+    // .hamburger input {
+    //     display: block;
+    //     width: 30px;
+    //     height: 12px;
+    //     position: absolute;
+    //     top: -7px;
+    //     left: -15px;
+    //     cursor: pointer;
+    //     opacity: 0;
+    //     z-index: 2;
+    // }
+    // .hamburger span {
+    //     display: block;
+    //     width: 33px;
+    //     height: 2px;
+    //     margin-bottom: 5px;
+    //     position: relative;
+    //     background: #000;
+    //     border-radius: 3px;
+    //     z-index: 1;
+    // }
+
+    // .hamburger.page-nav-list {
+    //     display: flex;
+    //     flex-direction: column;
+    //     position: absolute;
+    //     width: 100px;
+    //     margin: -100px 0 0 -50px;
+    //     padding: 50px;
+    //     padding-top: 125px;
+    //     background: #ededed;
+    //     list-style-type: none;
+
+    //     .hamburger.page-nav-list-el {
+    //         padding: 5px 0;
+    //         font-size: 20px;
+           
+    //     }
+    //     .hamburger {
+    //         transform: none;
+    //     }
+    // }
+
+    .page-nav-list-link::before {
+        display: none;
+    }
+
+    .page-nav-list-link:hover::before {
+        display: none;
+    }
+
+
+    .slider {
+        height: 250px;
+    }
+    .slider-slide-title,
+    .slider-slide-name,
+    .slider-slide-txt {
+        top: 50%;
+        transform: translate(-50%, -20%);
+        padding-top: 15px;
+        font-size: 0.8rem;
+        padding: 10px;
+        height: 35px;
+    }
+    .slider-slide-title {
+        top: 35%;
+        font-size: 1rem;
+        font-weight: bold;
+        height: 20%;
+        padding-top: 10px;
+    }
+    .slider-slide-name {
+        top: 45%;
+        font-weight: normal;
+    }
+    .slider-slide-name span {
+        font-weight: bold;
+    }
+    .slider-slide-txt {
+        top: 55%;
+        font-size: 1rem;
     }
 }
