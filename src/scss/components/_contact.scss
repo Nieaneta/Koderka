@@ -94,17 +94,18 @@
 
 @media (max-width: 640px) {
     .contact {
-        height: 300px;
-        font-size: 1.7rem;
-        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 90px;
+        height: 100px;
+        font-size: 1.5rem;
     }
     .form {
         display: none;
     }
-    .form-right-img {
-        height: 200px;
-        display: block;
-    }
+
     .icons a {
         font-size: 2rem;
         text-decoration: none;
