@@ -121,14 +121,20 @@
 }
 
 @media (max-width: 640px) {
-    .container{
-        max-width: 700px;
+    .page-header {
+        position: static;
     }
+
+    .page-header .container {
+        justify-content: center;
+    }
+
     .page-logo {
         margin: 0;
+        display: flex;
 
         .page-logo-link {
-            font-size: 1.5rem;
+            font-size: 1.8rem;
         }
     }
     .page-nav {
@@ -180,12 +186,11 @@
     //     .hamburger.page-nav-list-el {
     //         padding: 5px 0;
     //         font-size: 20px;
-           
+
     //     }
     //     .hamburger {
     //         transform: none;
     //     }
-    // }
 
     .page-nav-list-link::before {
         display: none;
@@ -194,7 +199,6 @@
     .page-nav-list-link:hover::before {
         display: none;
     }
-
 
     .slider {
         height: 250px;
